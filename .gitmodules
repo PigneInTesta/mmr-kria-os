@@ -1,34 +1,34 @@
 [submodule "repos/poky"]
 	path = repos/poky
-	url = git@github.com:yoctoproject/poky.git
+	url = https://github.com/yoctoproject/poky.git
 	branch = nanbield
 [submodule "repos/meta-openembedded"]
 	path = repos/meta-openembedded
-	url = git@github.com:openembedded/meta-openembedded.git
+	url = https://github.com/openembedded/meta-openembedded.git
 	branch = nanbield
 [submodule "repos/meta-ros"]
 	path = repos/meta-ros
-	url = git@github.com:mc-cat-tty/meta-ros.git 
+	url = https://github.com/mc-cat-tty/meta-ros 
 	branch = nanbield
 [submodule "repos/meta-xilinx"]
 	path = repos/meta-xilinx
-	url = git@github.com:Xilinx/meta-xilinx.git
+	url = https://github.com/Xilinx/meta-xilinx
 	branch = nanbield
 [submodule "layers/meta-xilinx-tools"]
 	path = layers/meta-xilinx-tools
-	url = git@github.com:Xilinx/meta-xilinx-tools.git
+	url = https://github.com/Xilinx/meta-xilinx-tools
 	branch = nanbield
 [submodule "layers/meta-petalinux"]
 	path = layers/meta-petalinux
-	url = git@github.com:mc-cat-tty/meta-petalinux.git 
+	url = https://github.com/mc-cat-tty/meta-petalinux 
 	branch = nanbield
 [submodule "layers/meta-jupyter"]
 	path = layers/meta-jupyter
-	url = git@github.com:Xilinx/meta-jupyter.git
+	url = https://github.com/Xilinx/meta-jupyter
 	branch = master
 [submodule "repos/meta-security"]
 	path = repos/meta-security
-	url = git://git.yoctoproject.org/meta-security
+	url = https://git.yoctoproject.org/meta-security
 	branch = nanbield
 [submodule "layers/meta-mingw"]
 	path = layers/meta-mingw
@@ -44,11 +44,11 @@
 	branch = nanbield
 [submodule "layers/meta-openamp"]
 	path = layers/meta-openamp
-	url = git@github.com:OpenAMP/meta-openamp.git
+	url = https://github.com/OpenAMP/meta-openamp
 	branch = master
 [submodule "layers/meta-xilinx-tsn"]
 	path = layers/meta-xilinx-tsn
-	url = git@github.com:Xilinx/meta-xilinx-tsn.git
+	url = https://github.com/Xilinx/meta-xilinx-tsn
 	branch = master
 [submodule "layers/meta-aws"]
 	path = layers/meta-aws
@@ -56,13 +56,13 @@
 	branch = nanbield
 [submodule "layers/meta-system-controller"]
 	path = layers/meta-system-controller
-	url = git@github.com:Xilinx/meta-system-controller.git
+	url = https://github.com/Xilinx/meta-system-controller
 	branch = master
 [submodule "meta-kria-mmr"]
 	path = layers/meta-kria
-	url = git@github.com:mc-cat-tty/meta-kria-mmr
+	url = https://github.com/mc-cat-tty/meta-kria-mmr
 	branch = nanbield
 [submodule "repos/device-tree-xlnx"]
 	path = repos/device-tree-xlnx
-	url = git@github.com:Xilinx/device-tree-xlnx
+	url = https://github.com/Xilinx/device-tree-xlnx
 	branch = xlnx_rel_v2022.2
