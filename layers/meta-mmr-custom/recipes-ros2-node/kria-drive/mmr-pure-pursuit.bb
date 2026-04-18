@@ -59,7 +59,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=mmr_base"
 SRC_URI = "git://git@github.com/MMR-Electric-Driverless/control_node.git;${ROS_BRANCH};protocol=ssh"
 SRCREV = "${AUTOREV}"
-S = "${WORKDIR}/git/src/3_control/control_node"
+S = "${WORKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 
