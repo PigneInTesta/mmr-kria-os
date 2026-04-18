@@ -58,3 +58,4 @@ S = "${WORKDIR}/git/src/0_common/mmr_base"
 ROS_BUILD_TYPE = "ament_cmake"
 
 inherit ros_${ROS_BUILD_TYPE}
+

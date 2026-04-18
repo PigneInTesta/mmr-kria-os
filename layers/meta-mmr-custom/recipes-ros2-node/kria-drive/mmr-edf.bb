@@ -1,8 +1,8 @@
 inherit ros_distro_humble
 inherit ros_superflore_generated
 
-DESCRIPTION = "Build mmr_edf of mmr-driverless/mmr-kria-drive"
-AUTHOR = "Edoardo Torrini <edoardo.torrini@gmail.com>"
+DESCRIPTION = "Build mmr_edf of MMR-Electric-Driverless/kria-drive"
+AUTHOR = "Giovanni Tassotti <giovanni.tassotti27@gmail.com>"
 ROS_AUTHOR = "Edoardo Torrini <edoardo.torrini@gmail.com>"
 
 SECTION = "devel"
@@ -46,8 +46,8 @@ DEPENDS += "${ROS_EXPORT_DEPENDS} ${ROS_BUILDTOOL_EXPORT_DEPENDS}"
 
 RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 
-ROS_BRANCH ?= "branch=master"
-SRC_URI = "git://git@github.com/mmr-driverless/mmr-kria-drive.git;${ROS_BRANCH};protocol=ssh"
+ROS_BRANCH ?= "branch=mmr_base/march-2026"
+SRC_URI = "git://git@github.com/MMR-Electric-Driverless/kria-drive.git;${ROS_BRANCH};protocol=ssh"
 SRCREV = "${AUTOREV}"
 S = "${WORKDIR}/git/src/0_common/mmr_edf"
 
