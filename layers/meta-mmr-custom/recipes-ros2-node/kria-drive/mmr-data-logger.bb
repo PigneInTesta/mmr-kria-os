@@ -20,7 +20,7 @@ ROS_BUILD_DEPENDS = " \
     sensor-msgs \
     can-msgs \
     mmr-edf \
-    visualization_msgs \
+    visualization-msgs \
 "
 
 ROS_BUILDTOOL_DEPENDS = " \
@@ -38,7 +38,7 @@ ROS_EXEC_DEPENDS = " \
     sensor-msgs \
     can-msgs \
     mmr-edf \
-    visualization_msgs \
+    visualization-msgs \
 "
 
 DEPENDS = "${ROS_BUILD_DEPENDS} ${ROS_BUILDTOOL_DEPENDS}"
