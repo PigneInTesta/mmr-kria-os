@@ -4,10 +4,10 @@
 ## Setup
  1. Install host dependencies: [https://docs.yoctoproject.org/ref-manual/system-requirements.html#required-packages-for-the-build-host](https://docs.yoctoproject.org/ref-manual/system-requirements.html#required-packages-for-the-build-host)
  2. Download this repo with related submodules: `git clone --recurse-submodules -j12 https://github.com/PigneInTesta/mmr-kria-os`
- 3. Install extra dependencies by running: `sudo apt install < apt_dependencies.txt`
+ 3. Install extra dependencies by running: `cat apt_depencencies.txt | xargs sudo /bin/apt install`
  4. Edit `DL_DIR`, `SSTATE_DIR`, `TMPDIR`, `HDF_PATH` in _local.conf_ if necessary. These parameters will allow you to place _downloads_, _sstate_ and _tmp_ dirs in a folder different from _build_ (the default one)
  5. Source BitBake environment: `source setupsdk`
- 6. Build as much recipes as possible with: `bitbake -k kria-image-mmr`
+ 6. Build as much recipes as possible with: `bitbake -k mmr-kria-full`
  7. Fix failed recipes
 
 ## Convention-over-configuration
@@ -16,7 +16,7 @@ The default location of hardware description file, in the form of XSA file, is _
 You may need to run `bitbake -c cleanall pmu-firmware fsbl-firmware` after it.
 
 ## Build Process
-`bitbake -k kria-image-mmr` is the suggested command to build kria image.
+`bitbake -k mmr-kria-full` is the suggested command to build kria image.
 
 ### Important notes
 Run `bitbake -c cleanall pmu-firmware fsbl-firmware device-tree` whenever _platform.xsa_ changes.
