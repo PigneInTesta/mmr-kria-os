@@ -56,7 +56,7 @@ DEPENDS += "${ROS_EXPORT_DEPENDS} ${ROS_BUILDTOOL_EXPORT_DEPENDS}"
 
 RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 
-ROS_BRANCH ?= "branch=mmr_base"
+ROS_BRANCH ?= "branch=dev/no-debug"
 SRC_URI = "git://git@github.com/MMR-Electric-Driverless/control_node.git;${ROS_BRANCH};protocol=ssh"
 SRCREV = "${AUTOREV}"
 S = "${WORKDIR}/git"
