@@ -3,7 +3,7 @@
 
 ## Setup
  1. Install host dependencies: [https://docs.yoctoproject.org/ref-manual/system-requirements.html#required-packages-for-the-build-host](https://docs.yoctoproject.org/ref-manual/system-requirements.html#required-packages-for-the-build-host)
- 2. Download this repo with related submodules: `git clone --recurse-submodules -j12 https://github.com/EdoardoTorrini/mmr-kria-os`
+ 2. Download this repo with related submodules: `git clone --recurse-submodules -j12 https://github.com/PigneInTesta/mmr-kria-os`
  3. Install extra dependencies by running: `sudo apt install < apt_dependencies.txt`
  4. Edit `DL_DIR`, `SSTATE_DIR`, `TMPDIR`, `HDF_PATH` in _local.conf_ if necessary. These parameters will allow you to place _downloads_, _sstate_ and _tmp_ dirs in a folder different from _build_ (the default one)
  5. Source BitBake environment: `source setupsdk`
