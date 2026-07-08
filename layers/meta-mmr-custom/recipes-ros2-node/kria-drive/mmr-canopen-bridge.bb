@@ -50,7 +50,7 @@ DEPENDS += "${ROS_EXPORT_DEPENDS} ${ROS_BUILDTOOL_EXPORT_DEPENDS}"
 
 RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 
-ROS_BRANCH ?= "branch=mmr_base/march-2026"
+ROS_BRANCH ?= "branch=mmr_base/july-2026"
 SRC_URI = "git://git@github.com/MMR-Electric-Driverless/kria-drive.git;${ROS_BRANCH};protocol=ssh"
 SRCREV = "${AUTOREV}"
 S = "${WORKDIR}/git/src/1_actuation/canopen_bridge"
